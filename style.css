@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0;
+    background-color:  #6fe3c8;
+}
+
+
+
+.parent{
+    height: 98%;
+    width: 25%;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 24px 5px rgb(87, 85, 87);
+-moz-box-shadow: 0px 0px 24px 5px rgb(87, 85, 87);
+box-shadow: 0px 0px 24px 5px rgb(87, 85, 87);
+
+
+}
+
+.screen{
+    width: 90%;
+    display: flex;
+    height: 160px;
+    margin: 0 auto;
+    align-items: end;
+    border: none;
+    border-radius: 10px;
+    }
+
+
+.screen input{
+    width: 100%;
+    height: 90%;
+    padding-top: 50px;
+    padding-right: 10px;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    background-color: black;
+    color:  #1cc49d;
+    box-shadow: inset -3px -3px 7px rgb(58, 58, 58), inset 3px 3px 5px rgb(82, 81, 81) ;
+   
+   
+}
+
+
+.buttons table{
+    color: white;
+    width: 95%;
+    margin: 20px auto;
+    border-spacing: 10px;
+
+}
+
+
+
+
+table td {
+    color: #1cc49d;
+    background-color: #1b2f31;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 25%;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+    transition: .3s; 
+  }
+  
+  table td:active{
+    scale: 0.80;
+  }
+   
+   
+     
+
+
+   .special{
+    text-align: center;
+    height: 50px;
+    width: 25%;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg,  #1b2f31,  #1cc49d);
+    border-radius: 5px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+}
+
+.special:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
